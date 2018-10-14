@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     // region field
 
+    // カウント
     int count = 0;
 
     // endregion
