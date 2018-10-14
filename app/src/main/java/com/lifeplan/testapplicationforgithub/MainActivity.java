@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                count += 1;
                 TextView textView = findViewById(R.id.textView);
                 textView.setText(String.valueOf(count) + "回目");
-                count += 1;
             }
         });
     }
