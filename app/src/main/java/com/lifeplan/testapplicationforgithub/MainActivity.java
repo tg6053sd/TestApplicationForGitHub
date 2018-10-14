@@ -8,7 +8,13 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    // region field
+
     int count = 0;
+
+    // endregion
+
+    // region event
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,4 +31,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    // endregion
 }
